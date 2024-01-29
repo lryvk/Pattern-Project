@@ -27,29 +27,44 @@ h2{
     width: 120px;
     border: 2px solid black;
     margin: auto;
+    margin-top: 20px;
+
+    
     
 
 }
 
-#box {
-    position: relative;
-    margin-left: 20px;
-  }
-  .box:before{
-    position: absolute;
-    left: -20px;
-    height:20px;
-    width:20px;
-    margin-bottom:15px;
-    border:1px solid black;
-  }
-  .box.red:before{
-    background-color:red;
-  }
-  .box.green:before{
-    background-color:green;
-  }
-  .box.blue:before{
-    background-color:blue;
-  }
+#input2 {
+
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
+#input3 {
+
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
+#input4 {
+
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
 
