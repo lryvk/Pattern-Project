@@ -15,7 +15,7 @@ grid.innerHTML = "";
         for (let j=0; j < columns.value; j++) {
             let box = document.createElement('div');
             box.classList.add('box');
-            box.style.backgroundcolor = color.value;
+            box.style.backgroundColor = color.value;
             rowDiv.appendChild(box);
         }
 
