@@ -11,26 +11,35 @@ h2{
 
 }
 
-#square {
+.box {
 
     height: 20px;
-    width: 120px;
+    width: 20px;
     border: 2px solid black;
     margin: auto;
     
     
 }
 
-#input {
+.rows {
 
     height: 20px;
-    width: 120px;
+    width: 20px;
     border: 2px solid black;
     margin: auto;
     margin-top: 20px;
 
-    
-    
+
+}
+
+.columns {
+
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+
 
 }
 

@@ -4,15 +4,13 @@ const color = document.getElementById ('color');
 const button = document.getElementById ('button');
 const grid = document.getElementById ('grid');
 
-button.addEventListener("click", makeGrid);
+submit.addEventListener("click", makeGrid);
 
 function makeGrid() {
-
 grid.innerHTML = "";
-
     for (let i = 0; i < rows.value; i++) {
         let rowDiv = document.createElement('div');
-        rowDiv.classicList.add('row');
+        rowDiv.classList.add('row');
         grid.appendChild(rowDiv);
         for (let j=0; j < columns.value; j++) {
             let box = document.createElement('div');
